@@ -211,7 +211,7 @@ def create_index_html():
                 contador++;
             } else {
                 
-                btnNo.textContent = "No acepto un NO 8)";
+                btnNo.textContent = 'No acepto un NO 8)';
             }
         });
 
