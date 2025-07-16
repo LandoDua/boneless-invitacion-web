@@ -182,16 +182,18 @@ def create_index_html():
         const resultSection = document.getElementById('result-section');
 
         const respuestasNo = [
-            "¿Estás segur@?",
+            "¿Estás segura?",
             "¿En serio?",
-            "Piénsalo bien...",
-            "¿No tienes hambre?",
-            "Vamos, di que sí",
-            "Los boneless están buenos",
-            "¡Por favor!",
-            "¿Y si vamos por pizza?",
+            "Piénsalo bien... Andale...",
+            "¿Qué no tienes hambre?",
+            "Andales, di que sí",
+            "Los boneless están ricos",
+            "De lemmon-peper... Piensalo",
+            "¡Porfissss!",
+            "¿Y si vamos por una pizza?",
+            "De pepperoni",
             "Solo esta vez",
-            "¿Prefieres nuggets?",
+            "¿Prefieres nuggets con papas?",
             "Última oportunidad",
             "¿En serio no quieres?",
             "Está bien, pero piénsalo"
@@ -203,7 +205,7 @@ def create_index_html():
         btnNo.addEventListener('click', function() {
             if (contador < respuestasNo.length) {
                 btnNo.textContent = respuestasNo[contador];
-                tamaño += 0.2;
+                tamaño += 0.8;
                 btnSi.style.fontSize = tamaño + 'em';
                 btnSi.style.padding = (15 + contador * 3) + 'px ' + (30 + contador * 5) + 'px';
                 contador++;
