@@ -210,7 +210,8 @@ def create_index_html():
                 btnSi.style.padding = (15 + contador * 3) + 'px ' + (30 + contador * 5) + 'px';
                 contador++;
             } else {
-                mostrarResultado();
+                
+                btnNo.textContent = respuestasNo["No acepto un NO 8)"];
             }
         });
 
